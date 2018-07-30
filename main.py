@@ -28,4 +28,4 @@ corpus = [ dictionary.doc2bow(train) for train in process_data ]
 lda = models.LdaModel(corpus=corpus, id2word=dictionary, num_topics=100)
 
 # In[6]
-print(lda.print_topics(10))
+print(lda.print_topics(1))
