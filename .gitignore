@@ -1,7 +1,7 @@
 .spyproject
 /data/*
 !/data/example.txt
-/intermediary
+/intermediary/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
